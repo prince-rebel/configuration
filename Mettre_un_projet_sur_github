@@ -28,4 +28,4 @@ Github: ajouter un projet déjà créé
 
    10- $ git remote -v J’avoue que je n’ai pas vraiment compris, il me semble que c’est juste la vérification que les choses fonctionnent dans les deux sens.
 
-   11- $ git push -u origin main est la commande qui va finalement envoyer les fichiers
+   11- $ git push -u origin main ou git push -u origin master ou git push -f origin main     est la commande qui va finalement envoyer les fichiers
