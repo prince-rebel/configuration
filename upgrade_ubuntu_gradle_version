@@ -1,0 +1,24 @@
+1-You could use the ppa for the almost-always latest version:
+
+   . sudo add-apt-repository ppa:cwchien/gradle
+   . sudo apt-get update
+   . sudo apt upgrade gradle
+  
+2 - or SDKMAN for the latest version:
+
+   . curl -s "https://get.sdkman.io" | bash
+   . source "$HOME/.sdkman/bin/sdkman-init.sh"
+   . sdk install gradle
+   
+   
+   nb:Advantages of the ppa
+   
+   auto-updates with the system
+   no piping of downloaded scripts to the shell
+   
+   Advantages of sdkman: latest version supplied by gradle themselves.
+   
+   
+   
+   
+   lien du tutoriel :https://askubuntu.com/questions/932083/how-do-i-upgrade-gradle
