@@ -19,4 +19,7 @@ Mettre a jour son depot local avec la branche master
  
  /// Cette derniere partie va decrire comment syncroniser notre branche Master local avec la branche MASTER en ligne avec VSCODE
  
+ 1- git fetch 
+ 2- git pull
+  pour les merges suivre ce lien : https://stackoverflow.com/questions/61755744/git-how-to-merge-feature-branch-into-master-using-vs-code-source-control/61773390
 - 
