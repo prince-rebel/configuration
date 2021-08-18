@@ -1,0 +1,22 @@
+Mettre a jour son depot local avec la branche master
+ dansmon cas j'ai creer une branche Cashin sur laquelle je travaille.
+ 
+ 1 - creer une nouvelle branche pour son projet
+ 
+ 2-cloner la branche pour travailler en local : git clone https://Prince_Rebel@bitbucket.org/dev_admin_cerco/moois-multi-services-react-native.git
+ 
+ 3- travailler sur sa branche
+ 
+ 4- apres faire un commit des modifications apportés : 
+ -$ git add . est la commande qui « stage » tous les documents, qui les ajoute à l’index. Pour info, on peut sortir de la pile un document avec la commande $ git reset HEAD votreFichier
+ -$ git commit -m "mon premier commit" permet de transférer les fichiers en attente dans l’index, vers le Head. Le message permet de savoir à quoi cela correspond.
+ 
+ 5-$ git remote add origin leLienCopié va désigner le répertoire distant comme cible du projet
+ 
+ 6-$ git remote -v J’avoue que je n’ai pas vraiment compris, il me semble que c’est juste la vérification que les choses fonctionnent dans les deux sens.
+ 
+ 7- git push pour poussez vos modifications sur votre branche en ligne
+ 
+ /// Cette derniere partie va decrire comment syncroniser notre branche Master local avec la branche MASTER en ligne avec VSCODE
+ 
+- 
