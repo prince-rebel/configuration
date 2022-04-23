@@ -1,0 +1,4 @@
+1.depoiement odoo15 sur le serveur:https://www.cybrosys.com/blog/how-to-install-odoo-15-on-ubuntu-2004-lts-server
+2.copier un fichier de local vers le remote : Utiliser scp :https://devconnected.com/how-to-copy-directory-on-linux/
+exemple : copier un fichier zip de mon local vers mon server à la racine /Home/
+ ->scp "Theme Vouge Business_15_0_211222_125329.zip" user@server_ip:~/
