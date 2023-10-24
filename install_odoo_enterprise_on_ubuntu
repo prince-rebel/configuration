@@ -1,0 +1,9 @@
+1. go to : https://github.com/Yenthe666/InstallScript   and execute instructions
+2. Create a token on your github account for github authentication during odoo enterprise version
+  - you will add your github username and generated token
+3- if you get some error like  "AttributeError: module 'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'" it's caused by openSSL version
+4- Removing the openSSL python package directory
+   --sudo rm -R /usr/lib/python3/dist-packages/OpenSSL
+5 - Then just install the OpenSSL library again
+  --- pip3 install pyOpenSSL --upgrade
+
