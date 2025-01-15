@@ -1,0 +1,8 @@
+Libellé de l'erreur : odoo  [Errno -3] Temporary failure in name resolution
+Solution :
+L'erreur est du au fait que le server n'arrive pas à contacter le DNS .
+Ca peut etre due à un probleme d'acces à internet à partir du server .
+
+Test : ping google.com
+Ressource : https://cloudzy.com/blog/temporary-failure-in-name-resolution/#:~:text=settings%20in%20Linux%3F-,What%20Does%20'temporary%20failure%20in%20name%20resolution'%20Mean%3F,require%20an%20active%20internet%20connection
+astuce : redemarrer le reseau : sudo systemctl restart systemd-resolved.service
